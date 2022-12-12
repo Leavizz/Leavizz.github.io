@@ -1,7 +1,189 @@
 <!DOCTYPE html>
-<html>
-<body>
-  <h1>Hello World</h1>
-  <p>I'm hosted with Github Pages.</p>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Page Perso</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="main-content">
+  <header class="container header active" id="home">
+    <div class="header-content">
+      <div class="left-header">
+        <div class="h-shape"></div>
+        <div class="image">
+          <img src="img/photoCV.jpg" alt="">
+        </div>
+      </div>
+      <div class="right-header">
+        <h1 class="name">
+          Bonjour, je m'appelle <span>Grégory Baptiste</span>
+          et je suis un développeur web junior.
+        </h1>
+        <p>
+          Étant passionné d'informatique, j'ai décidé de me reconvertir dans le développement web.
+          Anciennement assistant manager dans un bar, j'ai voulu retourner aux sources et à ma passion.
+          Me voilà donc développeur web junior.
+        </p>
+        <div class="btn-con">
+          <a href="CV_GregoryBaptiste.pdf" target="_blank" class="main-btn">
+            <span class="btn-text">Télécharger mon CV</span>
+            <span class="btn-icon"><i class="fas fa-download"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="container about" id="about">
+      <div class="main-title">
+        <h2>À propos de <span>moi</span><span class="bg-text">my stats</span></h2>
+      </div>
+      <div class="about-container">
+        <div class="left-about">
+          <h4>Information à propos de moi</h4>
+          <p>
+            Anciennement assistant manager dans un bar, je me suis lancé il y a un an dans une aventure bien différente. 
+            Actuellement en formation en alternance avec l'École O'Clock durant 16 mois, j'ai rejoins l'équipe Isomoph dans le Var 
+            pour compléter mon apprentissage afin de devenir Développeur - Concepteur d'application. 
+            Et, depuis un peu plus d'un an je me forme en autodidacte au développement. J'ai également eu l'oppotunité d'intégrer une formation 
+            profésionnalisante pour Développeur PHP & MySQL durant 6 mois, me permettant de consolider mes compétences en back-end.
+          </p>
+
+        </div>
+
+      </div>
+      <div class="about-stats">
+        <h4 class="stat-title">Mes compétences</h4>
+        <div class="progress-bars">
+          <div class="progress-bar">
+            <p class="prog-title">html5</p>
+            <div class="progress-con">
+              <p class="prog-text">80%</p>
+              <div class="progress">
+                <span class="html"></span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p class="prog-title">css3</p>
+            <div class="progress-con">
+              <p class="prog-text">70%</p>
+              <div class="progress">
+                <span class="css"></span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p class="prog-title">javascript</p>
+            <div class="progress-con">
+              <p class="prog-text">20%</p>
+              <div class="progress">
+                <span class="js"></span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p class="prog-title">PHP</p>
+            <div class="progress-con">
+              <p class="prog-text">75%</p>
+              <div class="progress">
+                <span class="PHP"></span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p class="prog-title">MySQL</p>
+            <div class="progress-con">
+              <p class="prog-text">70%</p>
+              <div class="progress">
+                <span class="MySQL"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="stat-title">My Timeline</h4>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2022 - present</p>
+          <h5>Formation<span> - O'Clock</span></h5>
+          <p>
+            Formation de Développeur - Concepteur d'application.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2019 - 2021</p>
+          <h5>Assistant Manager<span> - L'Annexe Bar Tapas</span></h5>
+          <p>
+            Employé polyvalent au sein du bar.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2022 - present</p>
+          <h5>Dévelppeur Web<span> - Isomorph</span></h5>
+          <p>
+            Alternant au sein de l'équipe de développeur.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2016 - 2018</p>
+          <h5>Serveur en Extra<span> - Traiteur Evénementiel "Plaisir des Mets"</span></h5>
+          <p>
+            Serveur en extra pour un traiteur réputé, François Arnaud.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2022</p>
+          <h5>Formation<span> - AFPA</span></h5>
+          <p>
+            Formation de Développeur PHP & MySQL.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <div class="controls">
+    <div class="control active-btn" data-id="home">
+      <i class="fas fa-home"></i>
+    </div>
+    <div class="control" data-id="about">
+      <i class="fas fa-user"></i>
+    </div>
+  </div>
+  <div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+  </div>
+  <script src="app.js"></script>
 </body>
+
 </html>
